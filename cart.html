@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d731ccdcb4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="CSS/cart.css">
+    <script src="JS/cart.js" defer></script>
+    <title>Orinoco</title>
+</head>
+<body>
+    <header>
+        <img id="logo_orinoco" src="img/logo-removebg-preview.png" alt="logo orinoco" width="300" height="130">
+    </header>
+    <nav>
+        <ul>
+            <li> <a class="link" href="index.html">Produits</a> </li>
+            <li> <a class="link" href="mailto:service-client@orinoco.com">Contact</a> </li>
+            
+        </ul>
+    </nav>
+    <main class="container-fluid">
+        <div id="container_form_summary"  >
+            <div id="summary"  class=" col-lg-6">
+                <table class="tab">
+                    <thead>
+                      <tr>
+                        <th id="left">Produit</th>
+                        <th>Quantité</th>
+                        <th>Option</th>
+                        <th colspan="2" id="right">Prix</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tableauInject">
+                        
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td> <strong>Montant total : <span id="montantTotal"></span></strong>  </td>
+                      </tr>
+                      <tr>
+                        <td> <button id="deletePanier" onclick="deleteCart()">Vider panier</button> </td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                
+            </div>
+            <div id="form"  class="col-lg-6">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul id="ul_footer">
+            <li>CGV</li>
+            <li>Livraison</li>
+            <li>Contact</li>
+        </ul>
+    </footer>
+</body>
+</html>

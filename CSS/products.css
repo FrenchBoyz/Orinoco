@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    background-color: #F3E9F1;
+    height: 150px;
+}
+#logo_orinoco{
+    margin-left: 5%;
+}
+nav{
+    background:#8C7766;
+    height: 40px;
+}
+ul{
+    margin-top: 0px;
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-left: 30px;
+    margin: 10px;
+    transition: transform .2s;
+}
+.link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    
+
+
+}
+li:hover{
+    transform: scale(1.15);
+    color: red;
+}
+
+#container_products{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('https://s1.1zoom.me/b6343/511/Teddy_bear_542339_1920x1080.jpg');
+    background-size: cover; 
+    padding-bottom: 100px;
+}
+
+#href_products{
+    text-decoration: none;
+}
+#text_panier{
+    margin-left: 4px;
+}
+#img_products{
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer{
+    background:#8C7766;
+}
+#ul_footer{
+    margin-bottom: 0;
+}
+
+
+#products_page{
+    width: 50%;
+    min-width: 300px;
+    border: solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#img-products{
+width: 100%;
+border-radius: 10px;
+}
+
+#btn-envoyer{
+    background-color:#2BB04A;
+    width: 180px;
+    height: 45px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border:transparent;
+    font-size: 1em;
+}
+#btn-envoyer:hover{
+    background-color:#057BA6;
+}
+#btn-envoyer:active{
+    transform: scale(1.05);
+}
+
+
+
+select{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+
+}
+
+#name_products{
+    font-size: 2em;
+    color: green;
+}
+.logo_livraison{
+    width: 100px;
+}
+#logo_livraison{
+    background: rgb(231, 245, 243);
+    height: 70px;
+    width: 235px;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: 100px;
+}

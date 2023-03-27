@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+header{
+    background-color: #F3E9F1;
+    height: 150px;
+}
+#logo_orinoco{
+    margin-left: 5%;
+}
+nav{
+    background:#8C7766;
+    height: 40px;
+}
+ul{
+    margin-top: 0px;
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-left: 30px;
+    margin: 10px;
+    transition: transform .2s;
+}
+.link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+    transform: scale(1.15);
+    color: white;
+}
+main{
+    
+    background-image: url('https://s1.1zoom.me/b6343/511/Teddy_bear_542339_1920x1080.jpg');
+    height: 75vh;
+   
+}
+
+
+footer{
+    background:#8C7766;
+}
+#ul_footer{
+    margin-bottom: 0;
+}
+
+p{
+    font-size: 1.3em;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+
+#container-summary{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 80%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+

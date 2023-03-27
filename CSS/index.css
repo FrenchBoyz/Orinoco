@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+header{
+    background-color: #F3E9F1;
+    height: 150px;
+}
+#logo_orinoco{
+    margin-left: 5%;
+}
+nav{
+    background:#8C7766;
+    height: 40px;
+}
+ul{
+    margin-top: 0px;
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-left: 30px;
+    margin: 10px;
+    transition: transform .2s;
+}
+.link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+    transform: scale(1.15);
+    color: white;
+}
+#container_products{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('https://s1.1zoom.me/b6343/511/Teddy_bear_542339_1920x1080.jpg');
+    background-size: cover; 
+    padding-bottom: 100px;
+}
+#products{
+    width: 25%;
+    min-width: 300px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: transform .2s;
+}
+#products:hover{
+    transform:scale(1.05);
+}
+#href_products{
+    text-decoration: none;
+    color: white;
+}
+#text_panier{
+    margin-left: 4px;
+}
+#img_products{
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer{
+    background:#8C7766;
+}
+#ul_footer{
+    margin-bottom: 0;
+}
+#price{
+    font-size: 2em;
+    background: rgb(70,7,99);
+    background: linear-gradient(90deg, rgba(70,7,99,1) 29%, rgba(255,0,31,1) 77%);
+}
+
+
+
+/*###############################################Page produits#########################################*/
+#products_page{
+    width: 80%;
+    min-width: 300px;
+    border: solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#img-products{
+width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/*###############################################Page Panier #########################################*/
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 350px;
+}
+
+
+#container_form_summary{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
